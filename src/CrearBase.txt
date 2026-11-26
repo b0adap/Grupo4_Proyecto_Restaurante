@@ -41,7 +41,7 @@ insert into usuarios(id_usuario, usuario, contrasena) values(usuarios_seq.nextva
 
 create sequence product_seq start with 1 increment by 1
 
-insert into productos(id_producto, nombre, precio_unitario, cantidad_disponible) values(product_seq.nextval, 'Brioche Fino', 10, 20)
+insert into productos(id_producto, nombre, precio_unitario, cantidad_disponible) values(product_seq.nextval, 'Brioche Grueso', 10, 20)
 
 insert into productos(id_producto, nombre, precio_unitario, cantidad_disponible) values(product_seq.nextval, 'Brioche semi-fina', 8.5, 50)
 
